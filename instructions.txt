@@ -1,0 +1,35 @@
+The lab report should contain these sections: Your full Name, Roll Number, Date of the experiment, Date of Submission
+
+1. Name of the Experiment
+
+2. Aim of the Experiment
+
+3. Theory
+
+4. Procedure
+
+5. Tabular Column
+
+6. Calculations
+
+7. Results
+
+8. Graph (if any)
+
+9. Error Calculation
+
+10. Discussion (what you understood about the experiment, what was the difference between theory assumption and real life and whatever you feel like scientifically………)
+
+11. References
+
+ Upload with File Name: (Full Name- Roll Number – Name of the Experiment),
+ Where full name is Yamulapalli Nandu Navadeep, Roll number is IMS24267, Name of the experiment is the title of the document.
+
+Avoid technical jargon language.
+
+The pdf should be well-formatted and presentable.
+
+Do not use -- in the text
+
+The language should be technical, but not overly complicated and do not use some random technical words which I would not know meaning of.
+
