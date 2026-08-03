@@ -106,14 +106,14 @@ The capacitor $C$ repeatedly charges and discharges toward the op-amp output sat
     \draw (op.out) -- ++(1,0) coordinate (out_junct) to[short, -o] ++(1.5,0) node[right, font=\bfseries]{Square Wave Output};
     
     % Negative feedback loop (Timing Network: upper loop)
-    \draw (out_junct) -- ++(0, 2.2) coordinate (top_f) 
+    \draw (out_junct) -- ++(0, 2.5) coordinate (top_f) 
           to[R, l_=$4.7\text{ k}\Omega$ ($R$)] ++(-5.0, 0) coordinate (top_in)
           -- (top_in |- op.-) -- (op.-);
     % Capacitor from Pin 2 to Ground (horizontal)
     \draw (top_in |- op.-) to[C, l=$0.47\ \mu\text{F}$ ($C$), *-] ++(-3.2,0) -- ++(0,-0.6) node[ground]{};
           
     % Positive feedback loop (Voltage Divider: lower loop)
-    \draw (out_junct) -- ++(0, -2.2) coordinate (bot_f)
+    \draw (out_junct) -- ++(0, -2.5) coordinate (bot_f)
           to[R, l=$4.7\text{ k}\Omega$ ($R_1$)] ++(-5.0, 0) coordinate (bot_in)
           -- (bot_in |- op.+) -- (op.+);
           
@@ -155,7 +155,7 @@ Integrating a constant voltage over time results in a steadily rising or falling
     \node[above, font=\scriptsize] at (op.down) {4};
     
     % Power supply
-    \draw (op.up) -- ++(0,0.5) node[vcc]{$+15\text{V}$};
+    \draw (op.up) -- ++(0,0.1) node[vcc]{$+15\text{V}$};
     \draw (op.down) -- ++(0,-0.5) node[vee]{$-15\text{V}$};
     
     % Input network to Pin 2 (-)
@@ -398,5 +398,45 @@ In this experiment, three operational amplifier waveform generator circuits were
     \item A clean \textbf{triangle wave} was produced by passing the square wave through an integrator circuit. A $220\text{ k}\Omega$ feedback resistor proved necessary to prevent offset voltage drift and keep the signal centered about zero volts.
     \item An adjustable \textbf{sawtooth wave} was created by applying a variable DC bias voltage to Pin 3 of the integrator using a potentiometer and increasing the input resistor to $33\text{ k}\Omega$, demonstrating how voltage biasing effectively controls wave asymmetry.
 \end{enumerate}
+
+% ==========================================
+% 8. DISCUSSION
+% ==========================================
+\section{Discussion}
+
+\subsection{Practical Applications}
+\begin{itemize}
+    \item \textbf{Square Waves:} Widely used as timing clocks in microprocessors, digital logic systems, and pulse-width modulation (PWM) power controls.
+    \item \textbf{Triangle Waves:} Commonly employed in audio sound synthesizers, Class-D amplifiers, and linear scanning voltage ramps for test equipment.
+    \item \textbf{Sawtooth Waves:} Ideal for horizontal deflection raster scanning in CRT monitors and analog oscilloscopes, where a scanning beam must smoothly trace across a screen and quickly snap back to the starting point.
+\end{itemize}
+
+\subsection{Advantages of Op-Amp Oscillators}
+Using simple operational amplifiers like the IC 741 offers practical laboratory and prototyping benefits:
+\begin{itemize}
+    \item \textbf{Simplicity \& Low Cost:} Generates multiple waveforms with just two inexpensive integrated circuit chips and standard resistors/capacitors.
+    \item \textbf{Real-Time Calculus:} Directly demonstrates experimental mathematical integration by converting alternating square pulses into linear triangular slopes.
+    \item \textbf{Easy Tuning:} Frequencies and wave asymmetry are easily controlled simply by tweaking resistor values ($T \approx 2.2RC$) or adjusting a simple potentiometer voltage bias.
+\end{itemize}
+
+\subsection{Limitations and Modern Alternatives}
+\begin{itemize}
+    \item \textbf{Slew Rate and Analog Drift:} The IC 741 has a modest slew rate ($\sim 0.5\text{ V}/\mu\text{s}$), causing sharp square wave edges to degrade into sloped trapezoidal lines at higher frequencies above a few kilohertz. Furthermore, simple resistor and capacitor values naturally drift over time with room temperature changes.
+    \item \textbf{Modern Improvements:} Today, precision signal generators rarely rely on simple analog feedback. Instead, modern instrumentation uses dedicated function generator chips or \textbf{Direct Digital Synthesis (DDS)}, which numerically outputs crystal-accurate waveforms from digital memory using high-speed Digital-to-Analog Converters (DACs).
+\end{itemize}
+
+
+
+% ==========================================
+% 9. APPENDIX: LAB READINGS
+% ==========================================
+\section{Appendix: Laboratory Logbook Attachment}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth, height=0.64\textheight, keepaspectratio]{"Images/Lab readings.jpeg"}
+\caption{Photograph of the experimental laboratory logbook records.}
+\label{fig:lab_readings}
+\end{figure}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.4)  3 AUG 2026 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.4)  3 AUG 2026 20:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -692,59 +692,65 @@ Overfull \hbox (3.01196pt too wide) in paragraph at lines 251--252
  []
 
 [3]
-<Images/Square.jpg, id=108, 2790.425pt x 1551.7975pt>
+<Images/Square.jpg, id=128, 2790.425pt x 1551.7975pt>
 File: Images/Square.jpg Graphic file (type jpg)
 <use Images/Square.jpg>
 Package pdftex.def Info: Images/Square.jpg  used on input line 294.
 (pdftex.def)             Requested size: 217.42265pt x 120.90237pt.
-<Images/Graph_Square.jpg, id=109, 2083.785pt x 1087.06125pt>
+<Images/Graph_Square.jpg, id=129, 2083.785pt x 1087.06125pt>
 File: Images/Graph_Square.jpg Graphic file (type jpg)
 <use Images/Graph_Square.jpg>
 Package pdftex.def Info: Images/Graph_Square.jpg  used on input line 301.
 (pdftex.def)             Requested size: 217.42265pt x 113.42325pt.
  [4]
-<Images/Triangluar.jpg, id=122, 2146.0175pt x 3323.41624pt>
+<Images/Triangluar.jpg, id=142, 2146.0175pt x 3323.41624pt>
 File: Images/Triangluar.jpg Graphic file (type jpg)
 <use Images/Triangluar.jpg>
 Package pdftex.def Info: Images/Triangluar.jpg  used on input line 316.
 (pdftex.def)             Requested size: 217.42265pt x 336.67154pt.
-<Images/Graph_Triangular.jpg, id=123, 2331.71124pt x 1365.1pt>
+<Images/Graph_Triangular.jpg, id=143, 2331.71124pt x 1365.1pt>
 File: Images/Graph_Triangular.jpg Graphic file (type jpg)
 <use Images/Graph_Triangular.jpg>
 Package pdftex.def Info: Images/Graph_Triangular.jpg  used on input line 323.
 (pdftex.def)             Requested size: 217.42265pt x 127.26959pt.
  [5 <./Images/Square.jpg> <./Images/Graph_Square.jpg> <./Images/Triangluar.jpg> <./Images/Graph_Triangular.jpg>]
-<Images/SawTooth.jpg, id=130, 3779.11874pt x 2476.25125pt>
+<Images/SawTooth.jpg, id=150, 3779.11874pt x 2476.25125pt>
 File: Images/SawTooth.jpg Graphic file (type jpg)
 <use Images/SawTooth.jpg>
 Package pdftex.def Info: Images/SawTooth.jpg  used on input line 338.
 (pdftex.def)             Requested size: 217.42265pt x 142.44757pt.
-<Images/Graph_Sawtooth.jpg, id=131, 2529.45pt x 1482.53876pt>
+<Images/Graph_Sawtooth.jpg, id=151, 2529.45pt x 1482.53876pt>
 File: Images/Graph_Sawtooth.jpg Graphic file (type jpg)
 <use Images/Graph_Sawtooth.jpg>
 Package pdftex.def Info: Images/Graph_Sawtooth.jpg  used on input line 345.
 (pdftex.def)             Requested size: 217.42265pt x 127.42798pt.
- [6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images/SawTooth.jpg> <./Images/Graph_Sawtooth.jpg>] [7] (./report.aux)
+ [6{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Images/SawTooth.jpg> <./Images/Graph_Sawtooth.jpg>] [7]
+<Images/Lab readings.jpeg, id=170, 1223.57124pt x 1606.0pt>
+File: Images/Lab readings.jpeg Graphic file (type jpg)
+<use Images/Lab readings.jpeg>
+Package pdftex.def Info: Images/Lab readings.jpeg  used on input line 437.
+(pdftex.def)             Requested size: 341.57076pt x 448.32913pt.
+ [8 <./Images/Lab readings.jpeg>] (./report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 24CD93F85BEDDDFDF18536935AE8EBA8;2596.
+(rerunfilecheck)             Checksum: 6FC62AC69666787FC6D0A177E25173A5;3578.
  ) 
 Here is how much of TeX's memory you used:
- 44353 strings out of 469472
- 1036635 string characters out of 5469747
- 1728727 words of memory out of 5000000
- 72397 multiletter control sequences out of 15000+600000
- 644701 words of font info for 155 fonts, out of 8000000 for 9000
+ 44384 strings out of 469472
+ 1037137 string characters out of 5469747
+ 1728814 words of memory out of 5000000
+ 72411 multiletter control sequences out of 15000+600000
+ 644983 words of font info for 160 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  99i,13n,118p,1299b,889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on report.pdf (7 pages, 2094720 bytes).
+Output written on report.pdf (8 pages, 2269868 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 34979 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 35024 words of extra memory for PDF output out of 35830 (max. 10000000)
 

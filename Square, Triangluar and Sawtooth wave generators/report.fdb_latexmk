@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1785767534.3147 "/home/nandu/Documents/IISER 5/Advanced Physics Lab II/Square, Triangluar and Sawtooth wave generators/report.tex" "report.pdf" "report" 1785767535.0895 0
-  "/home/nandu/Documents/IISER 5/Advanced Physics Lab II/Square, Triangluar and Sawtooth wave generators/report.tex" 1785767534.17138 22299 93d61b149fc0e4779b2e19fead7f675d ""
+["pdflatex"] 1785769828.56253 "/home/nandu/Documents/IISER 5/Advanced Physics Lab II/Square, Triangluar and Sawtooth wave generators/report.tex" "report.pdf" "report" 1785769829.36128 0
+  "/home/nandu/Documents/IISER 5/Advanced Physics Lab II/Square, Triangluar and Sawtooth wave generators/report.tex" 1785769828.41633 24926 2cbd6776c11ade1f6070515548a9b7f7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1775415801 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1775415801 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -205,12 +205,13 @@
   "Images/Graph_Sawtooth.jpg" 1785753224 334792 f0a8156e2ac06c193527b81c100b62ca ""
   "Images/Graph_Square.jpg" 1785753224 170005 f8cd4248e8d18c8f4e802bb74378c53f ""
   "Images/Graph_Triangular.jpg" 1785753224 192529 26b5e8eb641811ba251f8134e0c6b520 ""
+  "Images/Lab readings.jpeg" 1785768491.06401 169964 f567a2eb3821a700146bb2005b90c02a ""
   "Images/SawTooth.jpg" 1785753224 502323 c0f6b90945443e313af92971308d08f2 ""
   "Images/Square.jpg" 1785753224 257806 9de1debc8478f10310dbde60c6255268 ""
   "Images/Triangluar.jpg" 1785753224 455247 9bd58a90255760e93139992dc26c7f40 ""
-  "report.aux" 1785767535.03723 6113 966344389356a7cffcb842b3dc8dd2c7 "pdflatex"
-  "report.out" 1785767535.03736 2596 24cd93f85bedddfdf18536935ae8eba8 "pdflatex"
-  "report.tex" 1785767534.17138 22299 93d61b149fc0e4779b2e19fead7f675d ""
+  "report.aux" 1785769829.31258 7058 e678a220901d153dba31ae2a5ad90f36 "pdflatex"
+  "report.out" 1785769829.31264 3578 6fc62ac69666787fc6d0a177e25173a5 "pdflatex"
+  "report.tex" 1785769828.41633 24926 2cbd6776c11ade1f6070515548a9b7f7 ""
   (generated)
   "report.aux"
   "report.log"
