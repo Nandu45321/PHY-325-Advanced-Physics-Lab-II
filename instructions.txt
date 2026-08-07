@@ -33,3 +33,4 @@ Do not use -- in the text
 
 The language should be technical, but not overly complicated and do not use some random technical words which I would not know meaning of.
 
+For opening and closing quotes, use ` and ', for double quotes, use `` and ''
